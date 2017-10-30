@@ -1,0 +1,48 @@
+html,
+body {
+    height: 60%;
+}
+
+.container {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+  margin-right: 13px;
+}
+#table_holder{
+
+	 height: 50%;
+}
+
+#text{
+
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
